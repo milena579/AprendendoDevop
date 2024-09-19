@@ -16,7 +16,7 @@ jobs:
         with: 
           node-version: '20.x'
       - name: Instal Dependences
-        run: npm install
+        run: cd NovaAplicacao && npm install
       - name: Deploy on Azure
         uses: azure/webapp-deploy@v2
         with:
