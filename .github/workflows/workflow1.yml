@@ -18,7 +18,7 @@ jobs:
       - name: Install Dependencies
         run: cd NovaAplicacao && npm install
       - name: Deploy on Azure
-        uses: azure/webapp-deploy@v2
+        uses: azure/webapps-deploy@v2
         with:
           app-name: 'RecursoWeb'
           publish-profile: ${{secrets.AZURE_PUBLISH_PROFILE}}
