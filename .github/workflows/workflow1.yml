@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Chekout Surce
-        uese: action/chekout@v3
+        uses: action/chekout@v3
       - name: Setup node.js version
         uses: action/setup-node@v4
         with: 
